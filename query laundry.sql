@@ -1,0 +1,1 @@
+SELECT tanggal, AVG(harga) FROM transaksi WHERE tanggal LIKE "%-03-%" GROUP BY tanggal;
